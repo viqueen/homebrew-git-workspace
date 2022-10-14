@@ -1,3 +1,5 @@
+require "language/node"
+
 class GitDevbox < Formula
   desc "Collection of useful git extensions that enhance one's local dev environment"
   homepage "https://github.com/viqueen/git-devbox"
