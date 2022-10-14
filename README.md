@@ -4,7 +4,7 @@
 
 ```bash
 brew tap viqueen/git-devbox
-brew install
+brew install git-devbox
 ```
 
 ### package info
