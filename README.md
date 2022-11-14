@@ -9,7 +9,7 @@ brew install git-devbox
 
 ### package info
 
-* source : [codenav](https://github.com/viqueen/git-devbox)
+* source : [git-devbox](https://github.com/viqueen/git-devbox)
 
 ### update on new releases
 
