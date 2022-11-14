@@ -11,22 +11,11 @@ brew install git-devbox
 
 * source : [codenav](https://github.com/viqueen/git-devbox)
 
-
 ### update on new releases
 
-* get latest package url, and sha
+* run the following
 ```bash
-npm view git-devbox dist.tarball
-curl -O <package-url>
+node upgrade.js
 ```
 
-* get and compare sha checksum
-```bash
-npm view git-devbox dist.shasum
-shasum <package>
-```
-
-* get sha256 checksum
-```bash
-shasum -a 256 <package>
-```
+* commit the updates to `git-devbox.rb` file
