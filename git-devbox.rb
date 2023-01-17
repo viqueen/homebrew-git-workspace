@@ -3,8 +3,8 @@ require "language/node"
 class GitDevbox < Formula
   desc "Collection of useful git extensions that enhance one's local dev environment"
   homepage "https://github.com/viqueen/git-devbox"
-  url "https://registry.npmjs.org/git-devbox/-/git-devbox-2.0.3.tgz"
-  sha256 "f2c541017dba4131fe25901662395155a732d33b202122c43590e8b032e2fcdf"
+  url "https://registry.npmjs.org/git-devbox/-/git-devbox-3.0.0.tgz"
+  sha256 "b9cf93d723352cea79ae8d88975373ce9a6085b0079eb03eb283f4fc4d995e82"
   license "Apache-2.0"
 
   depends_on "node"
