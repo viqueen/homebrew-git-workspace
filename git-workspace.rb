@@ -1,10 +1,10 @@
 require "language/node"
 
-class GitDevbox < Formula
+class GitWorkspace < Formula
   desc "Collection of useful git extensions that enhance one's local dev environment"
-  homepage "https://github.com/viqueen/git-devbox"
-  url "https://registry.npmjs.org/git-devbox/-/git-devbox-3.4.0.tgz"
-  sha256 "d8e8ffe63c971a9fe29715b4ca890744dff5e491b68b6a598f9e1b8a1fc2fc6a"
+  homepage "https://github.com/viqueen/git-workspace"
+  url "https://registry.npmjs.org/@labset/git-workspace/-/git-workspace-1.0.0.tgz"
+  sha256 "f9933611aa8dbbca1ab7d588a017adc4db0fae35f44b0cf310a572ed89d755d5"
   license "Apache-2.0"
 
   depends_on "node"

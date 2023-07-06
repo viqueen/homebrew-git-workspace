@@ -3,10 +3,10 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const getPackageInfo = async (name) => {
-    const output = execSync(`npm show ${name} dist --json`);
+const getPackageInfo = async (org, name) => {
+    const output = execSync(`npm show ${org}/${name} dist --json`);
     const info = JSON.parse(output.toString());
-    return { name, ...info };
+    return { ...info, name };
 }
 
 const downloadLatestArtifact = async (packageInfo) => {
@@ -51,7 +51,7 @@ const updateFormula = async (packageInfo) => {
     fs.writeFileSync(`${packageInfo.name}.rb`, updated);
 }
 
-getPackageInfo('git-devbox')
+getPackageInfo('@labset','git-workspace')
     .then(downloadLatestArtifact)
     .then(runChecksum)
     .then(updateFormula);

@@ -1,15 +1,15 @@
-## homebrew-git-devbox
+## homebrew-git-workspace
 
 ### install it
 
 ```bash
-brew tap viqueen/git-devbox
-brew install git-devbox
+brew tap viqueen/git-workspace
+brew install git-workspace
 ```
 
 ### package info
 
-* source : [git-devbox](https://github.com/viqueen/git-devbox)
+* source : [git-workspace](https://github.com/viqueen/git-workspace)
 
 ### update on new releases
 
@@ -18,4 +18,4 @@ brew install git-devbox
 node upgrade.js
 ```
 
-* commit the updates to `git-devbox.rb` file
+* commit the updates to `git-workspace.rb` file
